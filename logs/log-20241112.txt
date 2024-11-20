@@ -1,0 +1,105 @@
+2024-11-12 16:05:20.436 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-12 16:05:20.698 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-12 16:05:20.701 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-12 16:05:20.702 +04:00 [INF] Hosting environment: Development
+2024-11-12 16:05:20.703 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-12 16:05:21.407 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-12 16:05:21.688 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 287.7827ms
+2024-11-12 16:05:21.706 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-12 16:05:21.712 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 6.1586ms
+2024-11-12 16:05:21.829 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-12 16:05:21.873 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.6593ms
+2024-11-12 16:05:22.012 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-12 16:05:22.091 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.9006ms
+2024-11-12 16:05:31.053 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - null null
+2024-11-12 16:05:31.073 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-12 16:12:40.840 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-12 16:12:40.997 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-12 16:12:41.001 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-12 16:12:41.002 +04:00 [INF] Hosting environment: Development
+2024-11-12 16:12:41.003 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-12 16:12:41.534 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-12 16:12:41.753 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 222.9659ms
+2024-11-12 16:12:41.767 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-12 16:12:41.776 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 8.4835ms
+2024-11-12 16:12:41.863 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-12 16:12:41.890 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.6551ms
+2024-11-12 16:12:42.043 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-12 16:12:42.135 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.8046ms
+2024-11-12 16:12:47.497 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - null null
+2024-11-12 16:12:47.519 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-12 16:14:00.661 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-12 16:14:00.806 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-12 16:14:00.810 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-12 16:14:00.811 +04:00 [INF] Hosting environment: Development
+2024-11-12 16:14:00.812 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-12 16:14:01.271 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-12 16:14:01.481 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 214.0306ms
+2024-11-12 16:14:01.503 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-12 16:14:01.510 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 7.4801ms
+2024-11-12 16:14:01.615 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-12 16:14:01.651 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.2157ms
+2024-11-12 16:14:01.800 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-12 16:14:01.888 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.1534ms
+2024-11-12 16:14:05.951 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - null null
+2024-11-12 16:14:05.958 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-12 16:14:06.080 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi)'
+2024-11-12 16:14:06.102 +04:00 [INF] Route matched with {action = "GetAllCars", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCars() on controller CarMarketplaceWebApi.Controllers.CarController (CarMarketplaceWebApi).
+2024-11-12 16:14:06.691 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-12 16:14:07.796 +04:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Class], [c].[Color], [c].[IsNew], [c].[Make], [c].[Mileage], [c].[Model], [c].[Price], [c].[Year]
+FROM [cars] AS [c]
+2024-11-12 16:14:07.880 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarMarketplaceWebApi.Models.Car, CarMarketplaceWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-12 16:14:07.895 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi) in 1786.7262ms
+2024-11-12 16:14:07.896 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi)'
+2024-11-12 16:14:07.907 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - 200 null application/json; charset=utf-8 1956.3334ms
+2024-11-12 21:34:57.975 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-12 21:34:58.362 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-12 21:34:58.365 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-12 21:34:58.366 +04:00 [INF] Hosting environment: Development
+2024-11-12 21:34:58.367 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-12 21:34:59.170 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-12 21:34:59.410 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 245.3196ms
+2024-11-12 21:34:59.425 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-12 21:34:59.431 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 6.0836ms
+2024-11-12 21:34:59.533 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-12 21:34:59.581 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.3362ms
+2024-11-12 21:34:59.725 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-12 21:34:59.815 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.4827ms
+2024-11-12 21:35:32.439 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-12 21:35:32.588 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-12 21:35:32.592 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-12 21:35:32.594 +04:00 [INF] Hosting environment: Development
+2024-11-12 21:35:32.595 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-12 21:35:33.227 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-12 21:35:33.413 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 188.0853ms
+2024-11-12 21:35:33.427 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-12 21:35:33.438 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 10.4175ms
+2024-11-12 21:35:33.549 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-12 21:35:33.579 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.6802ms
+2024-11-12 21:35:33.735 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-12 21:35:33.814 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 78.9272ms
+2024-11-12 21:35:55.572 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Register/Register - multipart/form-data; boundary=----WebKitFormBoundaryZxodhIlEdDsrPYGK 489
+2024-11-12 21:35:55.582 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-12 21:35:55.626 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Register (CarMarketplaceWebApi)'
+2024-11-12 21:35:55.657 +04:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CarMarketplaceWebApi.Features.Auth.Command.Register.RegisterCommandRequest) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-12 21:35:55.669 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Register (CarMarketplaceWebApi) in 7.1041ms
+2024-11-12 21:35:55.671 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Register (CarMarketplaceWebApi)'
+2024-11-12 21:35:55.673 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'MediatR.IMediator' while attempting to activate 'CarMarketplaceWebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-12 21:35:55.709 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Register/Register - 500 null text/plain; charset=utf-8 138.9624ms

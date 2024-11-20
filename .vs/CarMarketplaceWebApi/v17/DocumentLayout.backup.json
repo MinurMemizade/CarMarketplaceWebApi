@@ -1,0 +1,763 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\repositories\\implementations\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:repositories\\implementations\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\dtos\\verificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\dtos\\verificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\dtos\\revokedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\dtos\\revokedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\exceptions\\useralreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:exceptions\\useralreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\services\\implementations\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:services\\implementations\\carservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\exceptions\\carnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:exceptions\\carnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\carmarketplacewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:carmarketplacewebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\services\\interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:services\\interfaces\\icarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\dtos\\complaindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\dtos\\complaindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\repositories\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:repositories\\interfaces\\icarrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\dtos\\usercarsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\dtos\\usercarsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119131353_v7.6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119131353_v7.6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119125814_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241119125814_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119125251_v5.7.7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241119125251_v5.7.7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119124721_v5.7.6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241119124721_v5.7.6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119124550_v5.7.5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241119124550_v5.7.5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119123936_v.5.6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241119123936_v.5.6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119114530_v.5.5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241119114530_v.5.5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\enums\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\enums\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119131233_v7.5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119131233_v7.5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119131112_v7.4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119131112_v7.4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119130726_v7.3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119130726_v7.3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119130435_v7.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119130435_v7.2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119130023_v7.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119130023_v7.1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119125914_v7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119125914_v7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119131434_v7.12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119131434_v7.12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119131804_v7.13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119131804_v7.13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119132317_v7.8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119132317_v7.8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|c:\\users\\minur memizade\\source\\repos\\carmarketplacewebapi\\migrations\\20241119131637_v7.11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{749F4656-29FC-4807-BD17-3E8F3FA816D8}|CarMarketplaceWebApi.csproj|solutionrelative:migrations\\20241119131637_v7.11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerificationDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\VerificationDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\VerificationDTO.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\VerificationDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\VerificationDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:13:51.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Exceptions\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Exceptions\\UserNotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\UserNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:55:26.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CarMarketplaceWebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\CarMarketplaceWebApi.csproj",
+              "RelativeDocumentMoniker": "CarMarketplaceWebApi.csproj",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\CarMarketplaceWebApi.csproj",
+              "RelativeToolTip": "CarMarketplaceWebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T13:55:06.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Repositories\\Interfaces\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Repositories\\Interfaces\\ICarRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ICarRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:33:50.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAWwEkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:41:53.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\CarDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\CarDTO.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\CarDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\CarDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:37:42.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Models\\Car.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\Car.cs",
+              "RelativeToolTip": "Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:26:57.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Repositories\\Implementations\\CarRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Repositories\\Implementations\\CarRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\CarRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA7wEQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:39:31.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RevokeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\RevokeDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RevokeDTO.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\RevokeDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\RevokeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:13:48.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForgotPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\ForgotPasswordDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ForgotPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\ForgotPasswordDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\ForgotPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:01:51.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:07:32.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CarNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Exceptions\\CarNotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\CarNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Exceptions\\CarNotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\CarNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:55:41.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserAlreadyExistsException.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Exceptions\\UserAlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\UserAlreadyExistsException.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Exceptions\\UserAlreadyExistsException.cs",
+              "RelativeToolTip": "Exceptions\\UserAlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T14:03:24.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ComplainDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\ComplainDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\ComplainDTO.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\ComplainDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\ComplainDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T13:23:30.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Services\\Implementations\\CarService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\CarService.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Services\\Implementations\\CarService.cs",
+              "RelativeToolTip": "Services\\Implementations\\CarService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwJ4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:39:36.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-20T13:25:35.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Services\\Interfaces\\ICarService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICarService.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Services\\Interfaces\\ICarService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICarService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:09:50.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Context\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Context\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Context\\AppDBContext.cs",
+              "RelativeToolTip": "Context\\AppDBContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwDQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:33:44.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\Identity\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\Identity\\AppUser.cs",
+              "RelativeToolTip": "Models\\Identity\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:42:08.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAUwHEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:11:26.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Repositories\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\Repository.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Repositories\\Implementations\\Repository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:00:24.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Favorites.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\Favorites.cs",
+              "RelativeDocumentMoniker": "Models\\Favorites.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\Favorites.cs",
+              "RelativeToolTip": "Models\\Favorites.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:24:45.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwEIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:14:46.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwDAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T11:46:02.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserCarsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\UserCarsDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\UserCarsDTO.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\UserCarsDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\UserCarsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:45:12.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20241119131233_v7.5.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131233_v7.5.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119131233_v7.5.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131233_v7.5.cs",
+              "RelativeToolTip": "Migrations\\20241119131233_v7.5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:12:33.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241119131353_v7.6.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131353_v7.6.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119131353_v7.6.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131353_v7.6.cs",
+              "RelativeToolTip": "Migrations\\20241119131353_v7.6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:13:53.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20241119131434_v7.12.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131434_v7.12.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119131434_v7.12.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131434_v7.12.cs",
+              "RelativeToolTip": "Migrations\\20241119131434_v7.12.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:14:34.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20241119131804_v7.13.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131804_v7.13.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119131804_v7.13.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131804_v7.13.cs",
+              "RelativeToolTip": "Migrations\\20241119131804_v7.13.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:18:04.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20241119132317_v7.8.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119132317_v7.8.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119132317_v7.8.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119132317_v7.8.cs",
+              "RelativeToolTip": "Migrations\\20241119132317_v7.8.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:23:18.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20241119131637_v7.11.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131637_v7.11.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119131637_v7.11.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131637_v7.11.cs",
+              "RelativeToolTip": "Migrations\\20241119131637_v7.11.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:16:37.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20241119131112_v7.4.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131112_v7.4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119131112_v7.4.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119131112_v7.4.cs",
+              "RelativeToolTip": "Migrations\\20241119131112_v7.4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:11:12.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:59:44.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20241119130726_v7.3.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119130726_v7.3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119130726_v7.3.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119130726_v7.3.cs",
+              "RelativeToolTip": "Migrations\\20241119130726_v7.3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:07:27.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20241119130435_v7.2.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119130435_v7.2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119130435_v7.2.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119130435_v7.2.cs",
+              "RelativeToolTip": "Migrations\\20241119130435_v7.2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:04:35.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20241119130023_v7.1.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119130023_v7.1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119130023_v7.1.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119130023_v7.1.cs",
+              "RelativeToolTip": "Migrations\\20241119130023_v7.1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:00:23.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20241119125914_v7.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119125914_v7.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119125914_v7.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119125914_v7.cs",
+              "RelativeToolTip": "Migrations\\20241119125914_v7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:59:14.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20241119125814_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119125814_v1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119125814_v1.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119125814_v1.cs",
+              "RelativeToolTip": "Migrations\\20241119125814_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:58:14.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20241119125251_v5.7.7.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119125251_v5.7.7.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119125251_v5.7.7.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119125251_v5.7.7.cs",
+              "RelativeToolTip": "Migrations\\20241119125251_v5.7.7.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:52:51.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20241119124721_v5.7.6.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119124721_v5.7.6.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119124721_v5.7.6.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119124721_v5.7.6.cs",
+              "RelativeToolTip": "Migrations\\20241119124721_v5.7.6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:47:21.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20241119124550_v5.7.5.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119124550_v5.7.5.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119124550_v5.7.5.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119124550_v5.7.5.cs",
+              "RelativeToolTip": "Migrations\\20241119124550_v5.7.5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:45:50.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241119123936_v.5.6.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119123936_v.5.6.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119123936_v.5.6.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119123936_v.5.6.cs",
+              "RelativeToolTip": "Migrations\\20241119123936_v.5.6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:39:36.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20241119114530_v.5.5.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119114530_v.5.5.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241119114530_v.5.5.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Migrations\\20241119114530_v.5.5.cs",
+              "RelativeToolTip": "Migrations\\20241119114530_v.5.5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T11:45:31.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:53:01.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\Enums\\EStatus.cs",
+              "RelativeDocumentMoniker": "Models\\Enums\\EStatus.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\Enums\\EStatus.cs",
+              "RelativeToolTip": "Models\\Enums\\EStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:59:06.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Minur Memizade\\source\\repos\\CarMarketplaceWebApi\\Models\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Models\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:15:44.774Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

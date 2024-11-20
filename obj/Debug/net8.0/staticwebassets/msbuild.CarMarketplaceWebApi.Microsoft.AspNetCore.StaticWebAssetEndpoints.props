@@ -1,0 +1,616 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/0ce2f5b7-ad78-435d-bf12-4c0ee7132a1c_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\0ce2f5b7-ad78-435d-bf12-4c0ee7132a1c_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/0ce2f5b7-ad78-435d-bf12-4c0ee7132a1c_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:22:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/0ce2f5b7-ad78-435d-bf12-4c0ee7132a1c_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\0ce2f5b7-ad78-435d-bf12-4c0ee7132a1c_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:22:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/0e34ebca-f614-45d2-8397-d12a408c71a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\0e34ebca-f614-45d2-8397-d12a408c71a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/0e34ebca-f614-45d2-8397-d12a408c71a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:28:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/0e34ebca-f614-45d2-8397-d12a408c71a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\0e34ebca-f614-45d2-8397-d12a408c71a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:28:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/1260f4dd-c9ce-4600-a9a6-77530c3cfd81_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\1260f4dd-c9ce-4600-a9a6-77530c3cfd81_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/1260f4dd-c9ce-4600-a9a6-77530c3cfd81_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:13:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/1260f4dd-c9ce-4600-a9a6-77530c3cfd81_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\1260f4dd-c9ce-4600-a9a6-77530c3cfd81_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:13:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/2542b943-90c1-4410-b11c-f502020f0def_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\2542b943-90c1-4410-b11c-f502020f0def_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/2542b943-90c1-4410-b11c-f502020f0def_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/2542b943-90c1-4410-b11c-f502020f0def_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\2542b943-90c1-4410-b11c-f502020f0def_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/25560c7e-5908-4b76-82c4-4461054f3604_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\25560c7e-5908-4b76-82c4-4461054f3604_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/25560c7e-5908-4b76-82c4-4461054f3604_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:32:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/25560c7e-5908-4b76-82c4-4461054f3604_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\25560c7e-5908-4b76-82c4-4461054f3604_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:32:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/282472e6-920e-48a4-807d-6155eba763e3_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\282472e6-920e-48a4-807d-6155eba763e3_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/282472e6-920e-48a4-807d-6155eba763e3_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:14:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/282472e6-920e-48a4-807d-6155eba763e3_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\282472e6-920e-48a4-807d-6155eba763e3_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:14:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/28b75355-08c3-44b3-884f-ceeb59319f49_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\28b75355-08c3-44b3-884f-ceeb59319f49_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/28b75355-08c3-44b3-884f-ceeb59319f49_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/28b75355-08c3-44b3-884f-ceeb59319f49_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\28b75355-08c3-44b3-884f-ceeb59319f49_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/332bc9a2-4992-4e27-aa66-ffb8e7c4035d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\332bc9a2-4992-4e27-aa66-ffb8e7c4035d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/332bc9a2-4992-4e27-aa66-ffb8e7c4035d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:31:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/332bc9a2-4992-4e27-aa66-ffb8e7c4035d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\332bc9a2-4992-4e27-aa66-ffb8e7c4035d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:31:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/3c586e0e-107a-4aae-8395-b08049f570e5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\3c586e0e-107a-4aae-8395-b08049f570e5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/3c586e0e-107a-4aae-8395-b08049f570e5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:50:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/3c586e0e-107a-4aae-8395-b08049f570e5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\3c586e0e-107a-4aae-8395-b08049f570e5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:50:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/40f14af8-6211-4e0f-b244-3edc12b10d99_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\40f14af8-6211-4e0f-b244-3edc12b10d99_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/40f14af8-6211-4e0f-b244-3edc12b10d99_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:08:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/40f14af8-6211-4e0f-b244-3edc12b10d99_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\40f14af8-6211-4e0f-b244-3edc12b10d99_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:08:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/457b1201-1381-461d-bc78-8d475268eae6_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\457b1201-1381-461d-bc78-8d475268eae6_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/457b1201-1381-461d-bc78-8d475268eae6_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:16:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/457b1201-1381-461d-bc78-8d475268eae6_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\457b1201-1381-461d-bc78-8d475268eae6_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:16:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/4af5a40c-a294-4f55-ab9b-083be60a41c4_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\4af5a40c-a294-4f55-ab9b-083be60a41c4_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/4af5a40c-a294-4f55-ab9b-083be60a41c4_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:35:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/4af5a40c-a294-4f55-ab9b-083be60a41c4_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\4af5a40c-a294-4f55-ab9b-083be60a41c4_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:35:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/4b53cc39-98f6-46a2-9573-8f8afb8de785_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\4b53cc39-98f6-46a2-9573-8f8afb8de785_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/4b53cc39-98f6-46a2-9573-8f8afb8de785_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 09:38:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/4b53cc39-98f6-46a2-9573-8f8afb8de785_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\4b53cc39-98f6-46a2-9573-8f8afb8de785_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 09:38:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/4d4b4150-7c51-466d-b22f-436d5edfc48f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\4d4b4150-7c51-466d-b22f-436d5edfc48f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/4d4b4150-7c51-466d-b22f-436d5edfc48f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:48:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/4d4b4150-7c51-466d-b22f-436d5edfc48f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\4d4b4150-7c51-466d-b22f-436d5edfc48f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:48:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/53426a81-a2ef-4fb7-8cac-46337b3600f6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\53426a81-a2ef-4fb7-8cac-46337b3600f6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ub0VpBLdSNWLgGb3NgSg2MbgRmklhaHn0iULSwFce8c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2949481"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ub0VpBLdSNWLgGb3NgSg2MbgRmklhaHn0iULSwFce8c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 18:07:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/53426a81-a2ef-4fb7-8cac-46337b3600f6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.zrsk0l4r72.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\53426a81-a2ef-4fb7-8cac-46337b3600f6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zrsk0l4r72"},{"Name":"integrity","Value":"sha256-Ub0VpBLdSNWLgGb3NgSg2MbgRmklhaHn0iULSwFce8c="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/53426a81-a2ef-4fb7-8cac-46337b3600f6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2949481"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ub0VpBLdSNWLgGb3NgSg2MbgRmklhaHn0iULSwFce8c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 18:07:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/6040c4a5-146a-4554-b7e4-c4df9580e4d5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\6040c4a5-146a-4554-b7e4-c4df9580e4d5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/6040c4a5-146a-4554-b7e4-c4df9580e4d5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:34:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/6040c4a5-146a-4554-b7e4-c4df9580e4d5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\6040c4a5-146a-4554-b7e4-c4df9580e4d5_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:34:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/6148b83f-df2e-40e8-9d0d-c69bac77f8a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\6148b83f-df2e-40e8-9d0d-c69bac77f8a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/6148b83f-df2e-40e8-9d0d-c69bac77f8a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:50:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/6148b83f-df2e-40e8-9d0d-c69bac77f8a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\6148b83f-df2e-40e8-9d0d-c69bac77f8a1_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:50:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/622a97ec-e4fa-413a-9eed-37c51b038461_JDPA_2020 Ford Mustang Bullitt Green Front View.dscw3z7j8v.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\622a97ec-e4fa-413a-9eed-37c51b038461_JDPA_2020 Ford Mustang Bullitt Green Front View.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dscw3z7j8v"},{"Name":"integrity","Value":"sha256-Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/622a97ec-e4fa-413a-9eed-37c51b038461_JDPA_2020 Ford Mustang Bullitt Green Front View.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"254960"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:59:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/622a97ec-e4fa-413a-9eed-37c51b038461_JDPA_2020 Ford Mustang Bullitt Green Front View.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\622a97ec-e4fa-413a-9eed-37c51b038461_JDPA_2020 Ford Mustang Bullitt Green Front View.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"254960"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:59:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/63226f34-6341-46a3-add2-d4ca9464e8a2_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\63226f34-6341-46a3-add2-d4ca9464e8a2_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/63226f34-6341-46a3-add2-d4ca9464e8a2_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 12:43:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/63226f34-6341-46a3-add2-d4ca9464e8a2_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\63226f34-6341-46a3-add2-d4ca9464e8a2_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 12:43:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/6cce9392-cde9-4307-8acb-1e21b8a92d85_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\6cce9392-cde9-4307-8acb-1e21b8a92d85_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/6cce9392-cde9-4307-8acb-1e21b8a92d85_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:51:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/6cce9392-cde9-4307-8acb-1e21b8a92d85_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\6cce9392-cde9-4307-8acb-1e21b8a92d85_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:51:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/6cdf23cf-bcac-4715-87a9-ce829feba303_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\6cdf23cf-bcac-4715-87a9-ce829feba303_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/6cdf23cf-bcac-4715-87a9-ce829feba303_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:12:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/6cdf23cf-bcac-4715-87a9-ce829feba303_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\6cdf23cf-bcac-4715-87a9-ce829feba303_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:12:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/70d6b37e-3ca8-4a04-9fcf-9f98bb58fb9e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\70d6b37e-3ca8-4a04-9fcf-9f98bb58fb9e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/70d6b37e-3ca8-4a04-9fcf-9f98bb58fb9e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:18:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/70d6b37e-3ca8-4a04-9fcf-9f98bb58fb9e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\70d6b37e-3ca8-4a04-9fcf-9f98bb58fb9e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:18:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/82dff619-8506-47b3-962d-8cfc3ea88001_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\82dff619-8506-47b3-962d-8cfc3ea88001_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/82dff619-8506-47b3-962d-8cfc3ea88001_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:48:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/82dff619-8506-47b3-962d-8cfc3ea88001_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\82dff619-8506-47b3-962d-8cfc3ea88001_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:48:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/8a01a77b-fda3-49de-9f7d-e59ca6e7a63d_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\8a01a77b-fda3-49de-9f7d-e59ca6e7a63d_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/8a01a77b-fda3-49de-9f7d-e59ca6e7a63d_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:34:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/8a01a77b-fda3-49de-9f7d-e59ca6e7a63d_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\8a01a77b-fda3-49de-9f7d-e59ca6e7a63d_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:34:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/8cda1005-a577-4bc7-b743-5a090fea985d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\8cda1005-a577-4bc7-b743-5a090fea985d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/8cda1005-a577-4bc7-b743-5a090fea985d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:22:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/8cda1005-a577-4bc7-b743-5a090fea985d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\8cda1005-a577-4bc7-b743-5a090fea985d_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:22:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9368f5c6-26db-45e2-8851-ae76b330271c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9368f5c6-26db-45e2-8851-ae76b330271c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/9368f5c6-26db-45e2-8851-ae76b330271c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:22:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9368f5c6-26db-45e2-8851-ae76b330271c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9368f5c6-26db-45e2-8851-ae76b330271c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:22:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/966ceb7b-45cf-447e-940f-340a8cb3369e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\966ceb7b-45cf-447e-940f-340a8cb3369e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/966ceb7b-45cf-447e-940f-340a8cb3369e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 13:54:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/966ceb7b-45cf-447e-940f-340a8cb3369e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\966ceb7b-45cf-447e-940f-340a8cb3369e_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 13:54:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/967dec86-ccc8-4dae-bc75-d432a9fb4f92_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\967dec86-ccc8-4dae-bc75-d432a9fb4f92_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/967dec86-ccc8-4dae-bc75-d432a9fb4f92_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:45:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/967dec86-ccc8-4dae-bc75-d432a9fb4f92_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\967dec86-ccc8-4dae-bc75-d432a9fb4f92_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:45:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9b708c8c-1b8e-41ab-bf77-ff5a6afb89eb_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9b708c8c-1b8e-41ab-bf77-ff5a6afb89eb_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/9b708c8c-1b8e-41ab-bf77-ff5a6afb89eb_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:53:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9b708c8c-1b8e-41ab-bf77-ff5a6afb89eb_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9b708c8c-1b8e-41ab-bf77-ff5a6afb89eb_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 13:53:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9ca56284-0531-4cc0-aa6f-19232333507b_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9ca56284-0531-4cc0-aa6f-19232333507b_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/9ca56284-0531-4cc0-aa6f-19232333507b_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 09:44:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9ca56284-0531-4cc0-aa6f-19232333507b_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9ca56284-0531-4cc0-aa6f-19232333507b_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 09:44:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9e55ce55-8c28-492a-bf9f-2c28184edf4b_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9e55ce55-8c28-492a-bf9f-2c28184edf4b_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/9e55ce55-8c28-492a-bf9f-2c28184edf4b_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:28:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9e55ce55-8c28-492a-bf9f-2c28184edf4b_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9e55ce55-8c28-492a-bf9f-2c28184edf4b_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:28:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9f006bc2-9504-4401-ac05-2bb92d4183d6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9f006bc2-9504-4401-ac05-2bb92d4183d6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/9f006bc2-9504-4401-ac05-2bb92d4183d6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 18:07:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/9f006bc2-9504-4401-ac05-2bb92d4183d6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\9f006bc2-9504-4401-ac05-2bb92d4183d6_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 18:07:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/a63a9879-e710-4c4a-a7ce-991624668c3f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\a63a9879-e710-4c4a-a7ce-991624668c3f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/a63a9879-e710-4c4a-a7ce-991624668c3f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:54:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/a63a9879-e710-4c4a-a7ce-991624668c3f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\a63a9879-e710-4c4a-a7ce-991624668c3f_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:54:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/a8e2e33b-4ea6-4650-af3b-eb48c6966782_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\a8e2e33b-4ea6-4650-af3b-eb48c6966782_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/a8e2e33b-4ea6-4650-af3b-eb48c6966782_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:33:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/a8e2e33b-4ea6-4650-af3b-eb48c6966782_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\a8e2e33b-4ea6-4650-af3b-eb48c6966782_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 15:33:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/ad1c9fb5-b678-4c5c-ac38-5abbcbb197ad_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ad1c9fb5-b678-4c5c-ac38-5abbcbb197ad_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/ad1c9fb5-b678-4c5c-ac38-5abbcbb197ad_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:54:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/ad1c9fb5-b678-4c5c-ac38-5abbcbb197ad_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ad1c9fb5-b678-4c5c-ac38-5abbcbb197ad_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:54:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/b0f12cf0-2f25-4816-b819-8a1ef497dea9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\b0f12cf0-2f25-4816-b819-8a1ef497dea9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/b0f12cf0-2f25-4816-b819-8a1ef497dea9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 14:09:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/b0f12cf0-2f25-4816-b819-8a1ef497dea9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\b0f12cf0-2f25-4816-b819-8a1ef497dea9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 14:09:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/b16bdd66-821b-4cbf-9132-fce841bb04df_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\b16bdd66-821b-4cbf-9132-fce841bb04df_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/b16bdd66-821b-4cbf-9132-fce841bb04df_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 12:47:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/b16bdd66-821b-4cbf-9132-fce841bb04df_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\b16bdd66-821b-4cbf-9132-fce841bb04df_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 12:47:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/b3c6312f-bebb-40ad-9a47-f2304488a8ff_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\b3c6312f-bebb-40ad-9a47-f2304488a8ff_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/b3c6312f-bebb-40ad-9a47-f2304488a8ff_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 18:01:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/b3c6312f-bebb-40ad-9a47-f2304488a8ff_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\b3c6312f-bebb-40ad-9a47-f2304488a8ff_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 18:01:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/bae8dd22-3d91-4c57-b2be-b81b69058815_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bae8dd22-3d91-4c57-b2be-b81b69058815_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/bae8dd22-3d91-4c57-b2be-b81b69058815_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:20:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/bae8dd22-3d91-4c57-b2be-b81b69058815_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\bae8dd22-3d91-4c57-b2be-b81b69058815_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:20:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/be6f7f26-3722-4c91-a985-33ebba9a093e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\be6f7f26-3722-4c91-a985-33ebba9a093e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/be6f7f26-3722-4c91-a985-33ebba9a093e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 12:47:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/be6f7f26-3722-4c91-a985-33ebba9a093e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\be6f7f26-3722-4c91-a985-33ebba9a093e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 12:47:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/c76d2840-d94c-4e5d-937b-ef5501d50f9e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\c76d2840-d94c-4e5d-937b-ef5501d50f9e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/c76d2840-d94c-4e5d-937b-ef5501d50f9e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:59:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/c76d2840-d94c-4e5d-937b-ef5501d50f9e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\c76d2840-d94c-4e5d-937b-ef5501d50f9e_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:59:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/cba7b0e2-6af9-46f0-8e3a-0712fd9fc164_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cba7b0e2-6af9-46f0-8e3a-0712fd9fc164_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/cba7b0e2-6af9-46f0-8e3a-0712fd9fc164_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:31:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/cba7b0e2-6af9-46f0-8e3a-0712fd9fc164_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\cba7b0e2-6af9-46f0-8e3a-0712fd9fc164_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:31:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/d84549f2-a085-4017-b30c-0b60fe2f287f_JDPA_2020 Ford Mustang Bullitt Green Front View.dscw3z7j8v.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\d84549f2-a085-4017-b30c-0b60fe2f287f_JDPA_2020 Ford Mustang Bullitt Green Front View.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dscw3z7j8v"},{"Name":"integrity","Value":"sha256-Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/d84549f2-a085-4017-b30c-0b60fe2f287f_JDPA_2020 Ford Mustang Bullitt Green Front View.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"254960"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 12:01:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/d84549f2-a085-4017-b30c-0b60fe2f287f_JDPA_2020 Ford Mustang Bullitt Green Front View.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\d84549f2-a085-4017-b30c-0b60fe2f287f_JDPA_2020 Ford Mustang Bullitt Green Front View.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"254960"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 12:01:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/da28b3be-8b2f-44cb-8c3e-fb2675bc24ea_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\da28b3be-8b2f-44cb-8c3e-fb2675bc24ea_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/da28b3be-8b2f-44cb-8c3e-fb2675bc24ea_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:03:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/da28b3be-8b2f-44cb-8c3e-fb2675bc24ea_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\da28b3be-8b2f-44cb-8c3e-fb2675bc24ea_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:03:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/e6af645f-9c63-42fe-9f8a-d81874548fdb_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\e6af645f-9c63-42fe-9f8a-d81874548fdb_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/e6af645f-9c63-42fe-9f8a-d81874548fdb_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/e6af645f-9c63-42fe-9f8a-d81874548fdb_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\e6af645f-9c63-42fe-9f8a-d81874548fdb_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 15:47:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/ec24afba-8e71-43fb-8af6-673088ef9b5c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ec24afba-8e71-43fb-8af6-673088ef9b5c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/ec24afba-8e71-43fb-8af6-673088ef9b5c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:58:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/ec24afba-8e71-43fb-8af6-673088ef9b5c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ec24afba-8e71-43fb-8af6-673088ef9b5c_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:58:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/f06167f9-a108-456b-bea0-8a622d9dfbc7_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\f06167f9-a108-456b-bea0-8a622d9dfbc7_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/f06167f9-a108-456b-bea0-8a622d9dfbc7_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 14:08:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/f06167f9-a108-456b-bea0-8a622d9dfbc7_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\f06167f9-a108-456b-bea0-8a622d9dfbc7_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 20 Nov 2024 14:08:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/f47d988a-5e61-47f2-ba7e-ce0600e3c4cd_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.d7bybsbkuf.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\f47d988a-5e61-47f2-ba7e-ce0600e3c4cd_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d7bybsbkuf"},{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/f47d988a-5e61-47f2-ba7e-ce0600e3c4cd_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 18:06:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/f47d988a-5e61-47f2-ba7e-ce0600e3c4cd_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\f47d988a-5e61-47f2-ba7e-ce0600e3c4cd_1920x1080-2605032-pacman-hd-wallpaper-for-free-download.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"391128"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OfjIL18nb6ln/H1eo2KCQ43Coc32ZPkUIss9Ml0SBx0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 18:06:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/f880c1af-ae60-44b6-9864-a370bcfb5db8_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\f880c1af-ae60-44b6-9864-a370bcfb5db8_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ub0VpBLdSNWLgGb3NgSg2MbgRmklhaHn0iULSwFce8c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2949481"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ub0VpBLdSNWLgGb3NgSg2MbgRmklhaHn0iULSwFce8c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 17:49:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/f880c1af-ae60-44b6-9864-a370bcfb5db8_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.zrsk0l4r72.jpeg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\f880c1af-ae60-44b6-9864-a370bcfb5db8_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.jpeg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zrsk0l4r72"},{"Name":"integrity","Value":"sha256-Ub0VpBLdSNWLgGb3NgSg2MbgRmklhaHn0iULSwFce8c="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/f880c1af-ae60-44b6-9864-a370bcfb5db8_1920x1080-2605032-pacman-hd-wallpaper-for-free-download-kgQHLUCvq-transformed.jpeg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2949481"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Ub0VpBLdSNWLgGb3NgSg2MbgRmklhaHn0iULSwFce8c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Nov 2024 17:49:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/fc2f695f-60cf-4527-b8c9-b91faf36f3e9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.ioxvoy0y22.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fc2f695f-60cf-4527-b8c9-b91faf36f3e9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ioxvoy0y22"},{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/fc2f695f-60cf-4527-b8c9-b91faf36f3e9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:55:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/fc2f695f-60cf-4527-b8c9-b91faf36f3e9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fc2f695f-60cf-4527-b8c9-b91faf36f3e9_4ea1fd11-7cd1-43c3-b5df-7f927d5826d9.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1455889"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022vuMZx80Q15jRA0XYehHBPC4gMb897DyOTPO0iYMh2QM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 17:55:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/uploads/287b19bc-f22e-4959-8567-eb1dc6412d4e_JDPA_2020 Ford Mustang Bullitt Green Front View.dscw3z7j8v.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\287b19bc-f22e-4959-8567-eb1dc6412d4e_JDPA_2020 Ford Mustang Bullitt Green Front View.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dscw3z7j8v"},{"Name":"integrity","Value":"sha256-Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o="},{"Name":"label","Value":"_content/CarMarketplaceWebApi/uploads/287b19bc-f22e-4959-8567-eb1dc6412d4e_JDPA_2020 Ford Mustang Bullitt Green Front View.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"254960"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:02:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CarMarketplaceWebApi/uploads/287b19bc-f22e-4959-8567-eb1dc6412d4e_JDPA_2020 Ford Mustang Bullitt Green Front View.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\287b19bc-f22e-4959-8567-eb1dc6412d4e_JDPA_2020 Ford Mustang Bullitt Green Front View.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"254960"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Q3hrOGxK6Q6aNEld0x8irI9VXYek7oeAgOJ8LUE6Z0o=\u0022"},{"Name":"Last-Modified","Value":"Sun, 17 Nov 2024 11:02:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

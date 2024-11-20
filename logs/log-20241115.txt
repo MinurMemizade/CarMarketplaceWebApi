@@ -1,0 +1,743 @@
+2024-11-15 13:42:50.485 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 13:42:50.741 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 13:42:50.744 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 13:42:50.745 +04:00 [INF] Hosting environment: Development
+2024-11-15 13:42:50.746 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 13:42:51.940 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 13:42:52.150 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 214.1683ms
+2024-11-15 13:42:52.170 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 13:42:52.174 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 4.563ms
+2024-11-15 13:42:52.247 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 13:42:52.292 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.8214ms
+2024-11-15 13:42:52.411 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 13:42:52.500 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.1002ms
+2024-11-15 13:43:07.588 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - multipart/form-data; boundary=----WebKitFormBoundarywqapwAmHOf5o7pSd 269
+2024-11-15 13:43:07.596 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 13:43:07.646 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 13:43:07.671 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarMarketplaceWebApi.Models.DTOs.LoginDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 13:43:08.248 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 13:43:08.968 +04:00 [INF] Executed DbCommand (66ms) [Parameters=[@__normalizedEmail_0='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-11-15 13:43:09.177 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 13:43:09.316 +04:00 [INF] Executed DbCommand (24ms) [Parameters=[@p0='jti' (Size = 4000), @p1='6a5639a9-de69-40ea-901e-22bc559006e6' (Size = 4000), @p2='944c7dc9-5337-4674-8e3a-08dd03ede844', @p3='http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier' (Size = 4000), @p4='944c7dc9-5337-4674-8e3a-08dd03ede844' (Size = 4000), @p5='944c7dc9-5337-4674-8e3a-08dd03ede844', @p6='email' (Size = 4000), @p7='ndng.minurmemizade@gmail.com' (Size = 4000), @p8='944c7dc9-5337-4674-8e3a-08dd03ede844', @p25='944c7dc9-5337-4674-8e3a-08dd03ede844', @p9='0', @p10='001a01f7-654d-47ae-9ae7-bc2a0d3d24b1' (Size = 4000), @p26='ebeeaa49-6f65-4508-b2f3-f23d9e9967dd' (Size = 4000), @p11='ndng.minurmemizade@gmail.com' (Size = 256), @p12='False', @p13='True', @p14=NULL (DbType = DateTimeOffset), @p15='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p16='MINURMEMIZADE' (Size = 256), @p17='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p18=NULL (Size = 4000), @p19='False', @p20=NULL (Size = 4000), @p21=NULL (DbType = DateTime2), @p22='IZK3YZCRS2J4M4H3EGQTKSUQQ2NVXNV3' (Size = 4000), @p23='False', @p24='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+MERGE [AspNetUserClaims] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([ClaimType], [ClaimValue], [UserId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([ClaimType], [ClaimValue], [UserId])
+VALUES (i.[ClaimType], i.[ClaimValue], i.[UserId])
+OUTPUT INSERTED.[Id], i._Position;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p9, [ConcurrencyStamp] = @p10, [Email] = @p11, [EmailConfirmed] = @p12, [LockoutEnabled] = @p13, [LockoutEnd] = @p14, [NormalizedEmail] = @p15, [NormalizedUserName] = @p16, [PasswordHash] = @p17, [PhoneNumber] = @p18, [PhoneNumberConfirmed] = @p19, [RefreshToken] = @p20, [RefreshTokenExpireTime] = @p21, [SecurityStamp] = @p22, [TwoFactorEnabled] = @p23, [UserName] = @p24
+OUTPUT 1
+WHERE [Id] = @p25 AND [ConcurrencyStamp] = @p26;
+2024-11-15 13:43:09.346 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 13:43:09.353 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='f49aec18-dc00-47ed-a133-39a6a4a8350b' (Size = 4000), @p17='001a01f7-654d-47ae-9ae7-bc2a0d3d24b1' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='+9pC7NrJwXI+SwzNY6Lnn5DOPHx78BVxdgmL5nccR+ZBIujIMeniA46uCHHJWXnV77ypmuvyjHfwrl26mY9AXA==' (Size = 4000), @p12='2025-01-14T13:43:09.3427029+04:00' (Nullable = true), @p13='IZK3YZCRS2J4M4H3EGQTKSUQQ2NVXNV3' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 13:43:09.361 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 13:43:09.365 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='631b85f2-aa85-4dd5-b043-39248ab3ae3c' (Size = 4000), @p17='f49aec18-dc00-47ed-a133-39a6a4a8350b' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='+9pC7NrJwXI+SwzNY6Lnn5DOPHx78BVxdgmL5nccR+ZBIujIMeniA46uCHHJWXnV77ypmuvyjHfwrl26mY9AXA==' (Size = 4000), @p12='2025-01-14T13:43:09.3427029+04:00' (Nullable = true), @p13='FEDQDELYED4SE3QZTV3HF546CEUWV35X' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 13:43:09.419 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='944c7dc9-5337-4674-8e3a-08dd03ede844' (Nullable = true), @__p_1='Default' (Size = 450), @__p_2='AccessToken' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[LoginProvider], [a].[Name], [a].[Value]
+FROM [AspNetUserTokens] AS [a]
+WHERE [a].[UserId] = @__get_Item_0 AND [a].[LoginProvider] = @__p_1 AND [a].[Name] = @__p_2
+2024-11-15 13:43:09.432 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 13:43:09.443 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='Default' (Nullable = false) (Size = 450), @p1='AccessToken' (Nullable = false) (Size = 450), @p2='944c7dc9-5337-4674-8e3a-08dd03ede844', @p3='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2YTU2MzlhOS1kZTY5LTQwZWEtOTAxZS0yMmJjNTU5MDA2ZTYiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijk0NGM3ZGM5LTUzMzctNDY3NC04ZTNhLTA4ZGQwM2VkZTg0NCIsImVtYWlsIjoibmRuZy5taW51cm1lbWl6YWRlQGdtYWlsLmNvbSIsImV4cCI6MTczMTY2NDY4OX0.81mW84DWKQuO17nu3RNX4WDvXliTPc005TtomGrzejc' (Size = 4000), @p20='944c7dc9-5337-4674-8e3a-08dd03ede844', @p4='0', @p5='f1bacd8a-28ac-4867-b693-8c019805b0f8' (Size = 4000), @p21='631b85f2-aa85-4dd5-b043-39248ab3ae3c' (Size = 4000), @p6='ndng.minurmemizade@gmail.com' (Size = 256), @p7='False', @p8='True', @p9=NULL (DbType = DateTimeOffset), @p10='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p11='MINURMEMIZADE' (Size = 256), @p12='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p13=NULL (Size = 4000), @p14='False', @p15='+9pC7NrJwXI+SwzNY6Lnn5DOPHx78BVxdgmL5nccR+ZBIujIMeniA46uCHHJWXnV77ypmuvyjHfwrl26mY9AXA==' (Size = 4000), @p16='2025-01-14T13:43:09.3427029+04:00' (Nullable = true), @p17='FEDQDELYED4SE3QZTV3HF546CEUWV35X' (Size = 4000), @p18='False', @p19='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserTokens] ([LoginProvider], [Name], [UserId], [Value])
+VALUES (@p0, @p1, @p2, @p3);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p4, [ConcurrencyStamp] = @p5, [Email] = @p6, [EmailConfirmed] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [RefreshToken] = @p15, [RefreshTokenExpireTime] = @p16, [SecurityStamp] = @p17, [TwoFactorEnabled] = @p18, [UserName] = @p19
+OUTPUT 1
+WHERE [Id] = @p20 AND [ConcurrencyStamp] = @p21;
+2024-11-15 13:43:09.460 +04:00 [INF] Executing OkObjectResult, writing value of type 'CarMarketplaceWebApi.Models.DTOs.ResponseDTO'.
+2024-11-15 13:43:09.471 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi) in 1793.8608ms
+2024-11-15 13:43:09.473 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 13:43:09.480 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - 200 null application/json; charset=utf-8 1892.4841ms
+2024-11-15 13:43:35.849 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - null null
+2024-11-15 13:43:35.890 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi)'
+2024-11-15 13:43:35.895 +04:00 [INF] Route matched with {action = "GetAllCars", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCars() on controller CarMarketplaceWebApi.Controllers.CarController (CarMarketplaceWebApi).
+2024-11-15 13:43:35.961 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Class], [c].[Color], [c].[IsNew], [c].[Make], [c].[Mileage], [c].[Model], [c].[Price], [c].[Year]
+FROM [cars] AS [c]
+2024-11-15 13:43:35.975 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarMarketplaceWebApi.Models.Car, CarMarketplaceWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 13:43:35.982 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi) in 85.5867ms
+2024-11-15 13:43:35.984 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi)'
+2024-11-15 13:43:35.985 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - 200 null application/json; charset=utf-8 136.1077ms
+2024-11-15 13:43:46.666 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - null null
+2024-11-15 13:43:46.672 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-11-15 13:43:46.676 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-11-15 13:43:46.677 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - 401 0 null 11.1565ms
+2024-11-15 15:22:28.985 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 15:22:29.167 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 15:22:29.171 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 15:22:29.173 +04:00 [INF] Hosting environment: Development
+2024-11-15 15:22:29.175 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 15:22:29.604 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 15:22:29.889 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 289.6959ms
+2024-11-15 15:22:29.920 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 15:22:29.927 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 7.2977ms
+2024-11-15 15:22:30.110 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 15:22:30.157 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.2697ms
+2024-11-15 15:22:30.485 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 15:22:30.617 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.579ms
+2024-11-15 15:22:51.780 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Register/Register - multipart/form-data; boundary=----WebKitFormBoundary4j6YkNNoQKx1DzaH 552
+2024-11-15 15:22:51.799 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 15:22:51.851 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Register (CarMarketplaceWebApi)'
+2024-11-15 15:22:51.882 +04:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CarMarketplaceWebApi.Models.DTOs.RegisterDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 15:22:52.806 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 15:22:53.972 +04:00 [INF] Executed DbCommand (69ms) [Parameters=[@__normalizedUserName_0='MM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 15:22:54.241 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='7c864f13-49fc-46f0-c843-08dd0567d937', @p1='0', @p2='9ae40c78-1ded-4647-af66-be6ccfbc940b' (Size = 4000), @p3='minur@gmail.com' (Size = 256), @p4='False', @p5='True', @p6=NULL (DbType = DateTimeOffset), @p7='MINUR@GMAIL.COM' (Size = 256), @p8='MM' (Size = 256), @p9='AQAAAAIAAYagAAAAEESYm3EyQzxpkbQ0fhYDW+kYm0GgC5k6Un8s+/NeIUGFuU4LlVs/TeY+vJ7zffY2YA==' (Size = 4000), @p10=NULL (Size = 4000), @p11='False', @p12=NULL (Size = 4000), @p13=NULL (DbType = DateTime2), @p14='KTG4FZU3UMFFODHK3ETW34ONAWE4DXOV' (Size = 4000), @p15='False', @p16='mm' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [RefreshToken], [RefreshTokenExpireTime], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2024-11-15 15:22:54.288 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='USER' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-11-15 15:22:54.318 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='USER' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-11-15 15:22:54.371 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='fe9483d9-4817-41f3-9bbe-67bdd3f991ba', @p1='de3a2199-a0e8-4e55-b94a-a35a89d0ed0c' (Size = 4000), @p2='user' (Size = 256), @p3='USER' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetRoles] ([Id], [ConcurrencyStamp], [Name], [NormalizedName])
+VALUES (@p0, @p1, @p2, @p3);
+2024-11-15 15:22:54.437 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@__normalizedRoleName_0='USER' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-11-15 15:22:54.537 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__get_Item_0='7c864f13-49fc-46f0-c843-08dd0567d937' (Nullable = true), @__get_Item_1='fe9483d9-4817-41f3-9bbe-67bdd3f991ba' (Nullable = true)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__get_Item_0 AND [a].[RoleId] = @__get_Item_1
+2024-11-15 15:22:54.562 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__normalizedRoleName_0='USER' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-11-15 15:22:54.612 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='MM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 15:22:54.686 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='fe9483d9-4817-41f3-9bbe-67bdd3f991ba', @p1='7c864f13-49fc-46f0-c843-08dd0567d937', @p18='7c864f13-49fc-46f0-c843-08dd0567d937', @p2='0', @p3='3542d474-b751-4a8d-b70b-11dbe8b7eec5' (Size = 4000), @p19='9ae40c78-1ded-4647-af66-be6ccfbc940b' (Size = 4000), @p4='minur@gmail.com' (Size = 256), @p5='False', @p6='True', @p7=NULL (DbType = DateTimeOffset), @p8='MINUR@GMAIL.COM' (Size = 256), @p9='MM' (Size = 256), @p10='AQAAAAIAAYagAAAAEESYm3EyQzxpkbQ0fhYDW+kYm0GgC5k6Un8s+/NeIUGFuU4LlVs/TeY+vJ7zffY2YA==' (Size = 4000), @p11=NULL (Size = 4000), @p12='False', @p13=NULL (Size = 4000), @p14=NULL (DbType = DateTime2), @p15='KTG4FZU3UMFFODHK3ETW34ONAWE4DXOV' (Size = 4000), @p16='False', @p17='mm' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [NormalizedEmail] = @p8, [NormalizedUserName] = @p9, [PasswordHash] = @p10, [PhoneNumber] = @p11, [PhoneNumberConfirmed] = @p12, [RefreshToken] = @p13, [RefreshTokenExpireTime] = @p14, [SecurityStamp] = @p15, [TwoFactorEnabled] = @p16, [UserName] = @p17
+OUTPUT 1
+WHERE [Id] = @p18 AND [ConcurrencyStamp] = @p19;
+2024-11-15 15:22:54.715 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2024-11-15 15:22:54.720 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Register (CarMarketplaceWebApi) in 2831.2571ms
+2024-11-15 15:22:54.723 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Register (CarMarketplaceWebApi)'
+2024-11-15 15:22:54.739 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Register/Register - 201 0 null 2958.3602ms
+2024-11-15 15:35:33.104 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 15:35:33.321 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 15:35:33.324 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 15:35:33.327 +04:00 [INF] Hosting environment: Development
+2024-11-15 15:35:33.336 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 15:35:33.846 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 15:35:34.137 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 295.2071ms
+2024-11-15 15:35:34.172 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 15:35:34.181 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 8.9568ms
+2024-11-15 15:35:34.312 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 15:35:34.365 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.0595ms
+2024-11-15 15:35:34.621 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 15:35:34.764 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.9378ms
+2024-11-15 15:36:03.745 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - multipart/form-data; boundary=----WebKitFormBoundaryihsT0Ni5Fl3B4rtb 257
+2024-11-15 15:36:03.800 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 15:36:03.850 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 15:36:03.881 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarMarketplaceWebApi.Models.DTOs.LoginDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 15:36:04.633 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 15:36:05.470 +04:00 [INF] Executed DbCommand (48ms) [Parameters=[@__normalizedEmail_0='MINUR@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-11-15 15:36:05.761 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[@__userId_0='7c864f13-49fc-46f0-c843-08dd0567d937'], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-11-15 15:36:05.851 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='MM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 15:36:06.012 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='jti' (Size = 4000), @p1='e8d517af-0314-41fd-a5c5-53a45526833c' (Size = 4000), @p2='7c864f13-49fc-46f0-c843-08dd0567d937', @p3='http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier' (Size = 4000), @p4='7c864f13-49fc-46f0-c843-08dd0567d937' (Size = 4000), @p5='7c864f13-49fc-46f0-c843-08dd0567d937', @p6='email' (Size = 4000), @p7='minur@gmail.com' (Size = 4000), @p8='7c864f13-49fc-46f0-c843-08dd0567d937', @p9='http://schemas.microsoft.com/ws/2008/06/identity/claims/role' (Size = 4000), @p10='user' (Size = 4000), @p11='7c864f13-49fc-46f0-c843-08dd0567d937', @p28='7c864f13-49fc-46f0-c843-08dd0567d937', @p12='0', @p13='0048238d-1d89-4a64-8d85-f831412336aa' (Size = 4000), @p29='3542d474-b751-4a8d-b70b-11dbe8b7eec5' (Size = 4000), @p14='minur@gmail.com' (Size = 256), @p15='False', @p16='True', @p17=NULL (DbType = DateTimeOffset), @p18='MINUR@GMAIL.COM' (Size = 256), @p19='MM' (Size = 256), @p20='AQAAAAIAAYagAAAAEESYm3EyQzxpkbQ0fhYDW+kYm0GgC5k6Un8s+/NeIUGFuU4LlVs/TeY+vJ7zffY2YA==' (Size = 4000), @p21=NULL (Size = 4000), @p22='False', @p23=NULL (Size = 4000), @p24=NULL (DbType = DateTime2), @p25='KTG4FZU3UMFFODHK3ETW34ONAWE4DXOV' (Size = 4000), @p26='False', @p27='mm' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+MERGE [AspNetUserClaims] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2),
+(@p9, @p10, @p11, 3)) AS i ([ClaimType], [ClaimValue], [UserId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([ClaimType], [ClaimValue], [UserId])
+VALUES (i.[ClaimType], i.[ClaimValue], i.[UserId])
+OUTPUT INSERTED.[Id], i._Position;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p12, [ConcurrencyStamp] = @p13, [Email] = @p14, [EmailConfirmed] = @p15, [LockoutEnabled] = @p16, [LockoutEnd] = @p17, [NormalizedEmail] = @p18, [NormalizedUserName] = @p19, [PasswordHash] = @p20, [PhoneNumber] = @p21, [PhoneNumberConfirmed] = @p22, [RefreshToken] = @p23, [RefreshTokenExpireTime] = @p24, [SecurityStamp] = @p25, [TwoFactorEnabled] = @p26, [UserName] = @p27
+OUTPUT 1
+WHERE [Id] = @p28 AND [ConcurrencyStamp] = @p29;
+2024-11-15 15:36:06.101 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='MM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 15:36:06.123 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@p16='7c864f13-49fc-46f0-c843-08dd0567d937', @p0='0', @p1='850c042f-934c-4d60-884d-c3c7c6d74b66' (Size = 4000), @p17='0048238d-1d89-4a64-8d85-f831412336aa' (Size = 4000), @p2='minur@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='MINUR@GMAIL.COM' (Size = 256), @p7='MM' (Size = 256), @p8='AQAAAAIAAYagAAAAEESYm3EyQzxpkbQ0fhYDW+kYm0GgC5k6Un8s+/NeIUGFuU4LlVs/TeY+vJ7zffY2YA==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='A9ug/WY52Kay7IPPilwbNxGpU6Xi2MU0+vuwgvbBE3Ad/9dSfG5NZaMrt5VmZk5E01I9bxtfNavMJt3+rOd56w==' (Size = 4000), @p12='2025-01-14T15:36:06.0929035+04:00' (Nullable = true), @p13='KTG4FZU3UMFFODHK3ETW34ONAWE4DXOV' (Size = 4000), @p14='False', @p15='mm' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 15:36:06.152 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedUserName_0='MM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 15:36:06.166 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p16='7c864f13-49fc-46f0-c843-08dd0567d937', @p0='0', @p1='02c2b8a2-e047-459a-80ff-919073510936' (Size = 4000), @p17='850c042f-934c-4d60-884d-c3c7c6d74b66' (Size = 4000), @p2='minur@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='MINUR@GMAIL.COM' (Size = 256), @p7='MM' (Size = 256), @p8='AQAAAAIAAYagAAAAEESYm3EyQzxpkbQ0fhYDW+kYm0GgC5k6Un8s+/NeIUGFuU4LlVs/TeY+vJ7zffY2YA==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='A9ug/WY52Kay7IPPilwbNxGpU6Xi2MU0+vuwgvbBE3Ad/9dSfG5NZaMrt5VmZk5E01I9bxtfNavMJt3+rOd56w==' (Size = 4000), @p12='2025-01-14T15:36:06.0929035+04:00' (Nullable = true), @p13='UN6TKHXEXTU6MERVPQGUVVZVKPTUCPZ7' (Size = 4000), @p14='False', @p15='mm' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 15:36:06.262 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__get_Item_0='7c864f13-49fc-46f0-c843-08dd0567d937' (Nullable = true), @__p_1='Default' (Size = 450), @__p_2='AccessToken' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[LoginProvider], [a].[Name], [a].[Value]
+FROM [AspNetUserTokens] AS [a]
+WHERE [a].[UserId] = @__get_Item_0 AND [a].[LoginProvider] = @__p_1 AND [a].[Name] = @__p_2
+2024-11-15 15:36:06.290 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='MM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 15:36:06.322 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='Default' (Nullable = false) (Size = 450), @p1='AccessToken' (Nullable = false) (Size = 450), @p2='7c864f13-49fc-46f0-c843-08dd0567d937', @p3='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlOGQ1MTdhZi0wMzE0LTQxZmQtYTVjNS01M2E0NTUyNjgzM2MiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjdjODY0ZjEzLTQ5ZmMtNDZmMC1jODQzLTA4ZGQwNTY3ZDkzNyIsImVtYWlsIjoibWludXJAZ21haWwuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoidXNlciIsImV4cCI6MTczMTY3MTQ2NX0.VTkXR4hGuKqEWDEneu2BFoCsDEcH8Rdv5XjODpc5uPk' (Size = 4000), @p20='7c864f13-49fc-46f0-c843-08dd0567d937', @p4='0', @p5='6994d167-cbba-494d-9ca3-5666c901767f' (Size = 4000), @p21='02c2b8a2-e047-459a-80ff-919073510936' (Size = 4000), @p6='minur@gmail.com' (Size = 256), @p7='False', @p8='True', @p9=NULL (DbType = DateTimeOffset), @p10='MINUR@GMAIL.COM' (Size = 256), @p11='MM' (Size = 256), @p12='AQAAAAIAAYagAAAAEESYm3EyQzxpkbQ0fhYDW+kYm0GgC5k6Un8s+/NeIUGFuU4LlVs/TeY+vJ7zffY2YA==' (Size = 4000), @p13=NULL (Size = 4000), @p14='False', @p15='A9ug/WY52Kay7IPPilwbNxGpU6Xi2MU0+vuwgvbBE3Ad/9dSfG5NZaMrt5VmZk5E01I9bxtfNavMJt3+rOd56w==' (Size = 4000), @p16='2025-01-14T15:36:06.0929035+04:00' (Nullable = true), @p17='UN6TKHXEXTU6MERVPQGUVVZVKPTUCPZ7' (Size = 4000), @p18='False', @p19='mm' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserTokens] ([LoginProvider], [Name], [UserId], [Value])
+VALUES (@p0, @p1, @p2, @p3);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p4, [ConcurrencyStamp] = @p5, [Email] = @p6, [EmailConfirmed] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [RefreshToken] = @p15, [RefreshTokenExpireTime] = @p16, [SecurityStamp] = @p17, [TwoFactorEnabled] = @p18, [UserName] = @p19
+OUTPUT 1
+WHERE [Id] = @p20 AND [ConcurrencyStamp] = @p21;
+2024-11-15 15:36:06.364 +04:00 [INF] Executing OkObjectResult, writing value of type 'CarMarketplaceWebApi.Models.DTOs.ResponseDTO'.
+2024-11-15 15:36:06.385 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi) in 2496.5665ms
+2024-11-15 15:36:06.391 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 15:36:06.400 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - 200 null application/json; charset=utf-8 2655.4451ms
+2024-11-15 15:36:24.535 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - null null
+2024-11-15 15:36:24.563 +04:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-11-15 15:36:24.573 +04:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-11-15 15:36:24.575 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - 401 0 null 40.5524ms
+2024-11-15 15:36:56.877 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - null null
+2024-11-15 15:36:56.945 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi)'
+2024-11-15 15:36:56.954 +04:00 [INF] Route matched with {action = "GetAllCars", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllCars() on controller CarMarketplaceWebApi.Controllers.CarController (CarMarketplaceWebApi).
+2024-11-15 15:36:57.039 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Class], [c].[Color], [c].[IsNew], [c].[Make], [c].[Mileage], [c].[Model], [c].[Price], [c].[Year]
+FROM [cars] AS [c]
+2024-11-15 15:36:57.070 +04:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CarMarketplaceWebApi.Models.Car, CarMarketplaceWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 15:36:57.088 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi) in 130.4017ms
+2024-11-15 15:36:57.097 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.CarController.GetAllCars (CarMarketplaceWebApi)'
+2024-11-15 15:36:57.101 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/Car/GetAllCars - 200 null application/json; charset=utf-8 224.6173ms
+2024-11-15 18:29:22.035 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 18:29:22.242 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 18:29:22.278 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 18:29:22.278 +04:00 [INF] Hosting environment: Development
+2024-11-15 18:29:22.279 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 18:29:22.877 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 18:29:23.053 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 180.4409ms
+2024-11-15 18:29:23.071 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 18:29:23.075 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 4.1957ms
+2024-11-15 18:29:23.136 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 18:29:23.182 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.9691ms
+2024-11-15 18:29:23.291 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 18:29:23.298 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.5427ms
+2024-11-15 18:29:40.138 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - multipart/form-data; boundary=----WebKitFormBoundarys6c5pG6afEE5D83e 269
+2024-11-15 18:29:40.147 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 18:29:40.213 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 18:29:40.233 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarMarketplaceWebApi.Models.DTOs.LoginDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 18:29:40.396 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi) in 160.0103ms
+2024-11-15 18:29:40.398 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 18:29:40.401 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CarMarketplaceWebApi.Repositories.Interfaces.IRevokeService' while attempting to activate 'CarMarketplaceWebApi.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-15 18:29:40.426 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - 500 null text/plain; charset=utf-8 287.8741ms
+2024-11-15 18:30:13.179 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 18:30:13.315 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 18:30:13.359 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 18:30:13.359 +04:00 [INF] Hosting environment: Development
+2024-11-15 18:30:13.360 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 18:30:13.983 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 18:30:14.139 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 159.4987ms
+2024-11-15 18:30:14.343 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 18:30:14.343 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 18:30:14.349 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 5.4913ms
+2024-11-15 18:30:14.376 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.8073ms
+2024-11-15 18:30:14.575 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 18:30:14.581 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.1059ms
+2024-11-15 18:30:41.752 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Revoke/Revoke - application/json 45
+2024-11-15 18:30:41.768 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 18:30:41.832 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Revoke (CarMarketplaceWebApi)'
+2024-11-15 18:30:41.857 +04:00 [INF] Route matched with {action = "Revoke", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Revoke(CarMarketplaceWebApi.Models.DTOs.RevokeDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 18:30:42.571 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 18:30:43.275 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 202
+2024-11-15 18:30:43.279 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Revoke (CarMarketplaceWebApi) in 1416.5045ms
+2024-11-15 18:30:43.281 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Revoke (CarMarketplaceWebApi)'
+2024-11-15 18:30:43.290 +04:00 [ERR] An error occurred using the connection to database 'WebApiArc' on server 'MSI\SQLEXPRESS'.
+2024-11-15 18:30:43.291 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Revoke/Revoke - 202 0 null 1539.1003ms
+2024-11-15 18:34:06.544 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 18:34:06.694 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 18:34:06.732 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 18:34:06.733 +04:00 [INF] Hosting environment: Development
+2024-11-15 18:34:06.733 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 18:34:07.358 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 18:34:07.487 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 134.0805ms
+2024-11-15 18:34:07.516 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 18:34:07.520 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 4.4608ms
+2024-11-15 18:34:07.590 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 18:34:07.620 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8328ms
+2024-11-15 18:34:07.737 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 18:34:07.744 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.8347ms
+2024-11-15 18:34:23.882 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - multipart/form-data; boundary=----WebKitFormBoundarynyVZBNeaNSBEIWl7 269
+2024-11-15 18:34:23.917 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 18:34:23.975 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 18:34:23.997 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarMarketplaceWebApi.Models.DTOs.LoginDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 18:34:24.856 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 18:34:25.793 +04:00 [INF] Executed DbCommand (62ms) [Parameters=[@__normalizedEmail_0='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-11-15 18:34:26.031 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='944c7dc9-5337-4674-8e3a-08dd03ede844'], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-11-15 18:34:26.082 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:34:26.242 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='jti' (Size = 4000), @p1='2fe8ae5f-08f4-461b-988d-025bcda09249' (Size = 4000), @p2='944c7dc9-5337-4674-8e3a-08dd03ede844', @p3='http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier' (Size = 4000), @p4='944c7dc9-5337-4674-8e3a-08dd03ede844' (Size = 4000), @p5='944c7dc9-5337-4674-8e3a-08dd03ede844', @p6='email' (Size = 4000), @p7='ndng.minurmemizade@gmail.com' (Size = 4000), @p8='944c7dc9-5337-4674-8e3a-08dd03ede844', @p25='944c7dc9-5337-4674-8e3a-08dd03ede844', @p9='0', @p10='89540278-ad22-45e3-9dec-085f0cbe2404' (Size = 4000), @p26='f1bacd8a-28ac-4867-b693-8c019805b0f8' (Size = 4000), @p11='ndng.minurmemizade@gmail.com' (Size = 256), @p12='False', @p13='True', @p14=NULL (DbType = DateTimeOffset), @p15='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p16='MINURMEMIZADE' (Size = 256), @p17='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p18=NULL (Size = 4000), @p19='False', @p20='+9pC7NrJwXI+SwzNY6Lnn5DOPHx78BVxdgmL5nccR+ZBIujIMeniA46uCHHJWXnV77ypmuvyjHfwrl26mY9AXA==' (Size = 4000), @p21='2025-01-14T13:43:09.3427029' (Nullable = true), @p22='FEDQDELYED4SE3QZTV3HF546CEUWV35X' (Size = 4000), @p23='False', @p24='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+MERGE [AspNetUserClaims] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([ClaimType], [ClaimValue], [UserId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([ClaimType], [ClaimValue], [UserId])
+VALUES (i.[ClaimType], i.[ClaimValue], i.[UserId])
+OUTPUT INSERTED.[Id], i._Position;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p9, [ConcurrencyStamp] = @p10, [Email] = @p11, [EmailConfirmed] = @p12, [LockoutEnabled] = @p13, [LockoutEnd] = @p14, [NormalizedEmail] = @p15, [NormalizedUserName] = @p16, [PasswordHash] = @p17, [PhoneNumber] = @p18, [PhoneNumberConfirmed] = @p19, [RefreshToken] = @p20, [RefreshTokenExpireTime] = @p21, [SecurityStamp] = @p22, [TwoFactorEnabled] = @p23, [UserName] = @p24
+OUTPUT 1
+WHERE [Id] = @p25 AND [ConcurrencyStamp] = @p26;
+2024-11-15 18:34:26.283 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:34:26.292 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='0b2e00f4-0091-4ed4-95b5-d089cdf81976' (Size = 4000), @p17='89540278-ad22-45e3-9dec-085f0cbe2404' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='Adsjd4m1Ykk9nlhgYIBNjFodE/b/rT7nxmAmfYXPpnPN3VCqxddV8Ir+rwU6bPSI5H5zGcHcpl3UujIDH0OFRw==' (Size = 4000), @p12='2025-01-14T18:34:26.2749520+04:00' (Nullable = true), @p13='FEDQDELYED4SE3QZTV3HF546CEUWV35X' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 18:34:26.299 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:34:26.307 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='1f4025ac-26bd-4619-bbe3-ae7be22091dc' (Size = 4000), @p17='0b2e00f4-0091-4ed4-95b5-d089cdf81976' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='Adsjd4m1Ykk9nlhgYIBNjFodE/b/rT7nxmAmfYXPpnPN3VCqxddV8Ir+rwU6bPSI5H5zGcHcpl3UujIDH0OFRw==' (Size = 4000), @p12='2025-01-14T18:34:26.2749520+04:00' (Nullable = true), @p13='MLPTVPMEAAWAFGGYNP54XQNUP6B4COGI' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 18:34:26.359 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__get_Item_0='944c7dc9-5337-4674-8e3a-08dd03ede844' (Nullable = true), @__p_1='Default' (Size = 450), @__p_2='AccessToken' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[LoginProvider], [a].[Name], [a].[Value]
+FROM [AspNetUserTokens] AS [a]
+WHERE [a].[UserId] = @__get_Item_0 AND [a].[LoginProvider] = @__p_1 AND [a].[Name] = @__p_2
+2024-11-15 18:34:26.385 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:34:26.395 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p1='Default' (Nullable = false) (Size = 450), @p2='AccessToken' (Nullable = false) (Size = 450), @p3='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyZmU4YWU1Zi0wOGY0LTQ2MWItOTg4ZC0wMjViY2RhMDkyNDkiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijk0NGM3ZGM5LTUzMzctNDY3NC04ZTNhLTA4ZGQwM2VkZTg0NCIsImVtYWlsIjoibmRuZy5taW51cm1lbWl6YWRlQGdtYWlsLmNvbSIsImV4cCI6MTczMTY4MjE2Nn0.VxuRp2zsQVPGsDaKO9DJ-BtVkSkA3TJwqgBI8WeLzmg' (Size = 4000), @p20='944c7dc9-5337-4674-8e3a-08dd03ede844', @p4='0', @p5='0bb9a63d-be7e-4a7b-a64d-e93fd0751aec' (Size = 4000), @p21='1f4025ac-26bd-4619-bbe3-ae7be22091dc' (Size = 4000), @p6='ndng.minurmemizade@gmail.com' (Size = 256), @p7='False', @p8='True', @p9=NULL (DbType = DateTimeOffset), @p10='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p11='MINURMEMIZADE' (Size = 256), @p12='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p13=NULL (Size = 4000), @p14='False', @p15='Adsjd4m1Ykk9nlhgYIBNjFodE/b/rT7nxmAmfYXPpnPN3VCqxddV8Ir+rwU6bPSI5H5zGcHcpl3UujIDH0OFRw==' (Size = 4000), @p16='2025-01-14T18:34:26.2749520+04:00' (Nullable = true), @p17='MLPTVPMEAAWAFGGYNP54XQNUP6B4COGI' (Size = 4000), @p18='False', @p19='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUserTokens] SET [Value] = @p0
+OUTPUT 1
+WHERE [LoginProvider] = @p1 AND [Name] = @p2 AND [UserId] = @p3;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p4, [ConcurrencyStamp] = @p5, [Email] = @p6, [EmailConfirmed] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [RefreshToken] = @p15, [RefreshTokenExpireTime] = @p16, [SecurityStamp] = @p17, [TwoFactorEnabled] = @p18, [UserName] = @p19
+OUTPUT 1
+WHERE [Id] = @p20 AND [ConcurrencyStamp] = @p21;
+2024-11-15 18:34:26.413 +04:00 [INF] Executing OkObjectResult, writing value of type 'CarMarketplaceWebApi.Models.DTOs.ResponseDTO'.
+2024-11-15 18:34:26.423 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi) in 2423.1097ms
+2024-11-15 18:34:26.424 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 18:34:26.431 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - 200 null application/json; charset=utf-8 2549.5767ms
+2024-11-15 18:34:37.812 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Revoke/Revoke - multipart/form-data; boundary=----WebKitFormBoundaryw0FWB12JBkAe33Vg 164
+2024-11-15 18:34:37.822 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Revoke (CarMarketplaceWebApi)'
+2024-11-15 18:34:37.853 +04:00 [INF] Route matched with {action = "Revoke", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Revoke(CarMarketplaceWebApi.Models.DTOs.RevokeDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 18:34:37.958 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-11-15 18:34:37.966 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 202
+2024-11-15 18:34:37.966 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:34:37.967 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Revoke (CarMarketplaceWebApi) in 111.2062ms
+2024-11-15 18:34:37.981 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Revoke (CarMarketplaceWebApi)'
+2024-11-15 18:34:37.982 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='0279c8d8-def7-436d-b1e6-5fd01f4d1e52' (Size = 4000), @p17='0bb9a63d-be7e-4a7b-a64d-e93fd0751aec' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11=NULL (Size = 4000), @p12='2025-01-14T18:34:26.2749520' (Nullable = true), @p13='MLPTVPMEAAWAFGGYNP54XQNUP6B4COGI' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 18:34:37.983 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Revoke/Revoke - 202 0 null 170.7993ms
+2024-11-15 18:35:12.246 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - multipart/form-data; boundary=----WebKitFormBoundaryTOEHJNvZs7H6CduA 269
+2024-11-15 18:35:12.263 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 18:35:12.265 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarMarketplaceWebApi.Models.DTOs.LoginDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 18:35:12.298 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-11-15 18:35:12.394 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='944c7dc9-5337-4674-8e3a-08dd03ede844'], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-11-15 18:35:12.412 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:35:12.418 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='jti' (Size = 4000), @p1='a61d8919-3340-4fd7-99df-feef10612d61' (Size = 4000), @p2='944c7dc9-5337-4674-8e3a-08dd03ede844', @p3='http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier' (Size = 4000), @p4='944c7dc9-5337-4674-8e3a-08dd03ede844' (Size = 4000), @p5='944c7dc9-5337-4674-8e3a-08dd03ede844', @p6='email' (Size = 4000), @p7='ndng.minurmemizade@gmail.com' (Size = 4000), @p8='944c7dc9-5337-4674-8e3a-08dd03ede844', @p25='944c7dc9-5337-4674-8e3a-08dd03ede844', @p9='0', @p10='5fa9407d-de79-48cc-a110-ab88a8b3874f' (Size = 4000), @p26='0279c8d8-def7-436d-b1e6-5fd01f4d1e52' (Size = 4000), @p11='ndng.minurmemizade@gmail.com' (Size = 256), @p12='False', @p13='True', @p14=NULL (DbType = DateTimeOffset), @p15='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p16='MINURMEMIZADE' (Size = 256), @p17='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p18=NULL (Size = 4000), @p19='False', @p20=NULL (Size = 4000), @p21='2025-01-14T18:34:26.2749520' (Nullable = true), @p22='MLPTVPMEAAWAFGGYNP54XQNUP6B4COGI' (Size = 4000), @p23='False', @p24='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+MERGE [AspNetUserClaims] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([ClaimType], [ClaimValue], [UserId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([ClaimType], [ClaimValue], [UserId])
+VALUES (i.[ClaimType], i.[ClaimValue], i.[UserId])
+OUTPUT INSERTED.[Id], i._Position;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p9, [ConcurrencyStamp] = @p10, [Email] = @p11, [EmailConfirmed] = @p12, [LockoutEnabled] = @p13, [LockoutEnd] = @p14, [NormalizedEmail] = @p15, [NormalizedUserName] = @p16, [PasswordHash] = @p17, [PhoneNumber] = @p18, [PhoneNumberConfirmed] = @p19, [RefreshToken] = @p20, [RefreshTokenExpireTime] = @p21, [SecurityStamp] = @p22, [TwoFactorEnabled] = @p23, [UserName] = @p24
+OUTPUT 1
+WHERE [Id] = @p25 AND [ConcurrencyStamp] = @p26;
+2024-11-15 18:35:12.429 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:35:12.435 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='3cb2f91f-9a34-4086-a71a-5471fd142491' (Size = 4000), @p17='5fa9407d-de79-48cc-a110-ab88a8b3874f' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='9omnMEMealuzVyser2V3TfuSRqevYwDBN/pBfn9voVxjr62Npt8dxuvf9AcUuRETdrxevyKklf5jWDNlNCXcnQ==' (Size = 4000), @p12='2025-01-14T18:35:12.4272253+04:00' (Nullable = true), @p13='MLPTVPMEAAWAFGGYNP54XQNUP6B4COGI' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 18:35:12.441 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:35:12.448 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='8cdcc2b8-dc4c-4363-95fd-2c0bed56059d' (Size = 4000), @p17='3cb2f91f-9a34-4086-a71a-5471fd142491' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='9omnMEMealuzVyser2V3TfuSRqevYwDBN/pBfn9voVxjr62Npt8dxuvf9AcUuRETdrxevyKklf5jWDNlNCXcnQ==' (Size = 4000), @p12='2025-01-14T18:35:12.4272253+04:00' (Nullable = true), @p13='LBCYPDLZEV6OFXKSWCEAWJJTDIOLGYRV' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 18:35:12.455 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='944c7dc9-5337-4674-8e3a-08dd03ede844' (Nullable = true), @__p_1='Default' (Size = 450), @__p_2='AccessToken' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[LoginProvider], [a].[Name], [a].[Value]
+FROM [AspNetUserTokens] AS [a]
+WHERE [a].[UserId] = @__get_Item_0 AND [a].[LoginProvider] = @__p_1 AND [a].[Name] = @__p_2
+2024-11-15 18:35:12.461 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 18:35:12.471 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p1='Default' (Nullable = false) (Size = 450), @p2='AccessToken' (Nullable = false) (Size = 450), @p3='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhNjFkODkxOS0zMzQwLTRmZDctOTlkZi1mZWVmMTA2MTJkNjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijk0NGM3ZGM5LTUzMzctNDY3NC04ZTNhLTA4ZGQwM2VkZTg0NCIsImVtYWlsIjoibmRuZy5taW51cm1lbWl6YWRlQGdtYWlsLmNvbSIsImV4cCI6MTczMTY4MjIxMn0._fncXaeZJzodUSyG3dSUF__EHsM073Vk37dPOHW8KCQ' (Size = 4000), @p20='944c7dc9-5337-4674-8e3a-08dd03ede844', @p4='0', @p5='d2a589ae-10a5-44d6-a72b-475e0a7133fe' (Size = 4000), @p21='8cdcc2b8-dc4c-4363-95fd-2c0bed56059d' (Size = 4000), @p6='ndng.minurmemizade@gmail.com' (Size = 256), @p7='False', @p8='True', @p9=NULL (DbType = DateTimeOffset), @p10='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p11='MINURMEMIZADE' (Size = 256), @p12='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p13=NULL (Size = 4000), @p14='False', @p15='9omnMEMealuzVyser2V3TfuSRqevYwDBN/pBfn9voVxjr62Npt8dxuvf9AcUuRETdrxevyKklf5jWDNlNCXcnQ==' (Size = 4000), @p16='2025-01-14T18:35:12.4272253+04:00' (Nullable = true), @p17='LBCYPDLZEV6OFXKSWCEAWJJTDIOLGYRV' (Size = 4000), @p18='False', @p19='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUserTokens] SET [Value] = @p0
+OUTPUT 1
+WHERE [LoginProvider] = @p1 AND [Name] = @p2 AND [UserId] = @p3;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p4, [ConcurrencyStamp] = @p5, [Email] = @p6, [EmailConfirmed] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [RefreshToken] = @p15, [RefreshTokenExpireTime] = @p16, [SecurityStamp] = @p17, [TwoFactorEnabled] = @p18, [UserName] = @p19
+OUTPUT 1
+WHERE [Id] = @p20 AND [ConcurrencyStamp] = @p21;
+2024-11-15 18:35:12.480 +04:00 [INF] Executing OkObjectResult, writing value of type 'CarMarketplaceWebApi.Models.DTOs.ResponseDTO'.
+2024-11-15 18:35:12.482 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi) in 214.8373ms
+2024-11-15 18:35:12.484 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 18:35:12.485 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - 200 null application/json; charset=utf-8 239.4312ms
+2024-11-15 21:35:39.569 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 21:35:39.812 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 21:35:39.853 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 21:35:39.855 +04:00 [INF] Hosting environment: Development
+2024-11-15 21:35:39.856 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 21:35:40.510 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 21:35:40.725 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 219.456ms
+2024-11-15 21:35:40.745 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 21:35:40.752 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 7.0123ms
+2024-11-15 21:35:40.840 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 21:35:40.874 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.4361ms
+2024-11-15 21:35:41.022 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 21:35:41.031 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.7998ms
+2024-11-15 21:35:46.487 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - null 0
+2024-11-15 21:35:46.525 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 21:35:46.605 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:35:46.638 +04:00 [INF] Route matched with {action = "RevokeAll", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeAll() on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 21:35:47.504 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 21:35:48.479 +04:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2024-11-15 21:35:48.845 +04:00 [INF] Executed DbCommand (50ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:35:48.871 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CarMarketplaceWebApi.Context.AppDBContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-15 21:35:48.892 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 202
+2024-11-15 21:35:48.901 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi) in 2254.3053ms
+2024-11-15 21:35:48.904 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:35:48.916 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - 202 0 null 2429.1905ms
+2024-11-15 21:36:06.060 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - null 0
+2024-11-15 21:36:06.066 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:36:06.067 +04:00 [INF] Route matched with {action = "RevokeAll", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeAll() on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 21:36:06.137 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2024-11-15 21:36:06.145 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CarMarketplaceWebApi.Context.AppDBContext'.
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-15 21:36:06.158 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 202
+2024-11-15 21:36:06.159 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi) in 83.3431ms
+2024-11-15 21:36:06.162 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:36:06.158 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:36:06.164 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - 202 0 null 104.9748ms
+2024-11-15 21:36:06.172 +04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CarMarketplaceWebApi.Context.AppDBContext'.
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'AppDBContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContext.InitializeStateManager(Boolean standAlone)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.ObjectDisposedException: Cannot access a disposed context instance. A common cause of this error is disposing a context instance that was resolved from dependency injection and then later trying to use the same context instance elsewhere in your application. This may occur if you are calling 'Dispose' on the context instance, or wrapping it in a using statement. If you are using dependency injection, you should let the dependency injection container take care of disposing context instances.
+Object name: 'AppDBContext'.
+   at Microsoft.EntityFrameworkCore.DbContext.CheckDisposed()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContextDependencies.get_StateManager()
+   at Microsoft.EntityFrameworkCore.Query.QueryContext.InitializeStateManager(Boolean standAlone)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2024-11-15 21:37:50.510 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 21:37:50.687 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 21:37:50.733 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 21:37:50.735 +04:00 [INF] Hosting environment: Development
+2024-11-15 21:37:50.736 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 21:37:51.208 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 21:37:51.383 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 179.421ms
+2024-11-15 21:37:51.553 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 21:37:51.553 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 21:37:51.558 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 4.605ms
+2024-11-15 21:37:51.581 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.0023ms
+2024-11-15 21:37:51.749 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 21:37:51.758 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.2915ms
+2024-11-15 21:37:56.488 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - null 0
+2024-11-15 21:37:56.500 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 21:37:56.547 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:37:56.561 +04:00 [INF] Route matched with {action = "RevokeAll", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeAll() on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 21:37:57.381 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 21:37:58.490 +04:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2024-11-15 21:37:58.843 +04:00 [INF] Executed DbCommand (49ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:37:58.852 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 202
+2024-11-15 21:37:58.857 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi) in 2288.6136ms
+2024-11-15 21:37:58.860 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:37:58.943 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - 202 0 null 2455.0385ms
+2024-11-15 21:42:30.687 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 21:42:30.862 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 21:42:30.913 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 21:42:30.915 +04:00 [INF] Hosting environment: Development
+2024-11-15 21:42:30.916 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 21:42:31.234 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 21:42:31.422 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 194.9662ms
+2024-11-15 21:42:31.442 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 21:42:31.451 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 8.9386ms
+2024-11-15 21:42:31.542 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 21:42:31.576 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.9875ms
+2024-11-15 21:42:31.736 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 21:42:31.748 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.1315ms
+2024-11-15 21:42:35.494 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - null 0
+2024-11-15 21:42:35.506 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 21:42:35.569 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:42:35.589 +04:00 [INF] Route matched with {action = "RevokeAll", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeAll() on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 21:42:36.097 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 21:42:36.765 +04:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2024-11-15 21:42:37.153 +04:00 [INF] Executed DbCommand (53ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:42:37.161 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 202
+2024-11-15 21:42:37.169 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi) in 1571.1386ms
+2024-11-15 21:42:37.171 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:42:37.188 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - 202 0 null 1694.6147ms
+2024-11-15 21:43:51.341 +04:00 [INF] User profile is available. Using 'C:\Users\Minur Memizade\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 21:43:51.523 +04:00 [INF] Now listening on: http://localhost:5074
+2024-11-15 21:43:51.565 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-15 21:43:51.568 +04:00 [INF] Hosting environment: Development
+2024-11-15 21:43:51.569 +04:00 [INF] Content root path: C:\Users\Minur Memizade\source\repos\CarMarketplaceWebApi
+2024-11-15 21:43:52.223 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/index.html - null null
+2024-11-15 21:43:52.399 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/index.html - 200 null text/html;charset=utf-8 181.4244ms
+2024-11-15 21:43:52.433 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 21:43:52.439 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_framework/aspnetcore-browser-refresh.js - 200 13792 application/javascript; charset=utf-8 6.6254ms
+2024-11-15 21:43:52.520 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/_vs/browserLink - null null
+2024-11-15 21:43:52.554 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.4193ms
+2024-11-15 21:43:52.705 +04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - null null
+2024-11-15 21:43:52.714 +04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.3447ms
+2024-11-15 21:43:56.185 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - null 0
+2024-11-15 21:43:56.194 +04:00 [WRN] Failed to determine the https port for redirect.
+2024-11-15 21:43:56.251 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:43:56.267 +04:00 [INF] Route matched with {action = "RevokeAll", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RevokeAll() on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 21:43:56.724 +04:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2024-11-15 21:43:57.338 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+2024-11-15 21:43:57.556 +04:00 [INF] Executed DbCommand (54ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:43:57.751 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='9f24736e-d45b-4299-ad45-c62cb32cdf47' (Size = 4000), @p17='d2a589ae-10a5-44d6-a72b-475e0a7133fe' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11=NULL (Size = 4000), @p12='2025-01-14T18:35:12.4272253' (Nullable = true), @p13='LBCYPDLZEV6OFXKSWCEAWJJTDIOLGYRV' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 21:43:57.783 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:43:57.793 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p16='7c864f13-49fc-46f0-c843-08dd0567d937', @p0='0', @p1='db716fcb-e5fe-4d5a-8713-1bf0005e8a46' (Size = 4000), @p17='6994d167-cbba-494d-9ca3-5666c901767f' (Size = 4000), @p2='minur@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='MINUR@GMAIL.COM' (Size = 256), @p7='MM' (Size = 256), @p8='AQAAAAIAAYagAAAAEESYm3EyQzxpkbQ0fhYDW+kYm0GgC5k6Un8s+/NeIUGFuU4LlVs/TeY+vJ7zffY2YA==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11=NULL (Size = 4000), @p12='2025-01-14T15:36:06.0929035' (Nullable = true), @p13='UN6TKHXEXTU6MERVPQGUVVZVKPTUCPZ7' (Size = 4000), @p14='False', @p15='mm' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 21:43:57.808 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 202
+2024-11-15 21:43:57.814 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi) in 1538.7842ms
+2024-11-15 21:43:57.817 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.RevokeAll (CarMarketplaceWebApi)'
+2024-11-15 21:43:57.830 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/RevokeAll/RevokeAll - 202 0 null 1645.3962ms
+2024-11-15 21:44:49.112 +04:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - multipart/form-data; boundary=----WebKitFormBoundaryDUvIaH4cttZrnxjr 269
+2024-11-15 21:44:49.125 +04:00 [INF] Executing endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 21:44:49.146 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarMarketplaceWebApi.Models.DTOs.LoginDTO) on controller CarMarketplaceWebApi.Controllers.AuthController (CarMarketplaceWebApi).
+2024-11-15 21:44:49.289 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedEmail_0='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2024-11-15 21:44:49.495 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='944c7dc9-5337-4674-8e3a-08dd03ede844'], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-11-15 21:44:49.560 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:44:49.631 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='jti' (Size = 4000), @p1='f586d9fe-2d37-467a-beae-b2ca7f248334' (Size = 4000), @p2='944c7dc9-5337-4674-8e3a-08dd03ede844', @p3='http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier' (Size = 4000), @p4='944c7dc9-5337-4674-8e3a-08dd03ede844' (Size = 4000), @p5='944c7dc9-5337-4674-8e3a-08dd03ede844', @p6='email' (Size = 4000), @p7='ndng.minurmemizade@gmail.com' (Size = 4000), @p8='944c7dc9-5337-4674-8e3a-08dd03ede844', @p25='944c7dc9-5337-4674-8e3a-08dd03ede844', @p9='0', @p10='f6704423-7753-43ca-bff8-4aa323adc665' (Size = 4000), @p26='9f24736e-d45b-4299-ad45-c62cb32cdf47' (Size = 4000), @p11='ndng.minurmemizade@gmail.com' (Size = 256), @p12='False', @p13='True', @p14=NULL (DbType = DateTimeOffset), @p15='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p16='MINURMEMIZADE' (Size = 256), @p17='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p18=NULL (Size = 4000), @p19='False', @p20=NULL (Size = 4000), @p21='2025-01-14T18:35:12.4272253' (Nullable = true), @p22='LBCYPDLZEV6OFXKSWCEAWJJTDIOLGYRV' (Size = 4000), @p23='False', @p24='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+MERGE [AspNetUserClaims] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2)) AS i ([ClaimType], [ClaimValue], [UserId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([ClaimType], [ClaimValue], [UserId])
+VALUES (i.[ClaimType], i.[ClaimValue], i.[UserId])
+OUTPUT INSERTED.[Id], i._Position;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p9, [ConcurrencyStamp] = @p10, [Email] = @p11, [EmailConfirmed] = @p12, [LockoutEnabled] = @p13, [LockoutEnd] = @p14, [NormalizedEmail] = @p15, [NormalizedUserName] = @p16, [PasswordHash] = @p17, [PhoneNumber] = @p18, [PhoneNumberConfirmed] = @p19, [RefreshToken] = @p20, [RefreshTokenExpireTime] = @p21, [SecurityStamp] = @p22, [TwoFactorEnabled] = @p23, [UserName] = @p24
+OUTPUT 1
+WHERE [Id] = @p25 AND [ConcurrencyStamp] = @p26;
+2024-11-15 21:44:49.687 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:44:49.700 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='f6c15c41-daa9-44ee-9e8f-aad41fc9bfe7' (Size = 4000), @p17='f6704423-7753-43ca-bff8-4aa323adc665' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='n8egRVns6kHfv61l+PymzbBF3Vh0QBl769jg70zGk0TCQ+T3YgG8Hrf26ptUx6opAyC5xAven0koqCA1inPIBQ==' (Size = 4000), @p12='2025-01-14T21:44:49.6853069+04:00' (Nullable = true), @p13='LBCYPDLZEV6OFXKSWCEAWJJTDIOLGYRV' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 21:44:49.714 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:44:49.724 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@p16='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='0', @p1='4a12768e-7deb-4487-a8f5-3d4f340480dc' (Size = 4000), @p17='f6c15c41-daa9-44ee-9e8f-aad41fc9bfe7' (Size = 4000), @p2='ndng.minurmemizade@gmail.com' (Size = 256), @p3='False', @p4='True', @p5=NULL (DbType = DateTimeOffset), @p6='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p7='MINURMEMIZADE' (Size = 256), @p8='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p9=NULL (Size = 4000), @p10='False', @p11='n8egRVns6kHfv61l+PymzbBF3Vh0QBl769jg70zGk0TCQ+T3YgG8Hrf26ptUx6opAyC5xAven0koqCA1inPIBQ==' (Size = 4000), @p12='2025-01-14T21:44:49.6853069+04:00' (Nullable = true), @p13='RKATX3HYMSIA2ROBUHZ5DAXXCBDZWQFE' (Size = 4000), @p14='False', @p15='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p0, [ConcurrencyStamp] = @p1, [Email] = @p2, [EmailConfirmed] = @p3, [LockoutEnabled] = @p4, [LockoutEnd] = @p5, [NormalizedEmail] = @p6, [NormalizedUserName] = @p7, [PasswordHash] = @p8, [PhoneNumber] = @p9, [PhoneNumberConfirmed] = @p10, [RefreshToken] = @p11, [RefreshTokenExpireTime] = @p12, [SecurityStamp] = @p13, [TwoFactorEnabled] = @p14, [UserName] = @p15
+OUTPUT 1
+WHERE [Id] = @p16 AND [ConcurrencyStamp] = @p17;
+2024-11-15 21:44:49.818 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[@__get_Item_0='944c7dc9-5337-4674-8e3a-08dd03ede844' (Nullable = true), @__p_1='Default' (Size = 450), @__p_2='AccessToken' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[LoginProvider], [a].[Name], [a].[Value]
+FROM [AspNetUserTokens] AS [a]
+WHERE [a].[UserId] = @__get_Item_0 AND [a].[LoginProvider] = @__p_1 AND [a].[Name] = @__p_2
+2024-11-15 21:44:49.854 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='MINURMEMIZADE' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[RefreshToken], [a].[RefreshTokenExpireTime], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-11-15 21:44:49.871 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@p1='Default' (Nullable = false) (Size = 450), @p2='AccessToken' (Nullable = false) (Size = 450), @p3='944c7dc9-5337-4674-8e3a-08dd03ede844', @p0='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmNTg2ZDlmZS0yZDM3LTQ2N2EtYmVhZS1iMmNhN2YyNDgzMzQiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6Ijk0NGM3ZGM5LTUzMzctNDY3NC04ZTNhLTA4ZGQwM2VkZTg0NCIsImVtYWlsIjoibmRuZy5taW51cm1lbWl6YWRlQGdtYWlsLmNvbSIsImV4cCI6MTczMTY5MzU4OX0.JfL0eUk1jPvgW96N-BAsFJ029m3e4r_mX0XT5bq6Upc' (Size = 4000), @p20='944c7dc9-5337-4674-8e3a-08dd03ede844', @p4='0', @p5='7e73a9c3-3fb3-485c-bb8b-e1579679abf7' (Size = 4000), @p21='4a12768e-7deb-4487-a8f5-3d4f340480dc' (Size = 4000), @p6='ndng.minurmemizade@gmail.com' (Size = 256), @p7='False', @p8='True', @p9=NULL (DbType = DateTimeOffset), @p10='NDNG.MINURMEMIZADE@GMAIL.COM' (Size = 256), @p11='MINURMEMIZADE' (Size = 256), @p12='AQAAAAIAAYagAAAAEEo9FpVAYLGe7LuVFo21k2xOrEATJhYce/xmula81XiYF2C+gXiS89QX+bVOdEIHbQ==' (Size = 4000), @p13=NULL (Size = 4000), @p14='False', @p15='n8egRVns6kHfv61l+PymzbBF3Vh0QBl769jg70zGk0TCQ+T3YgG8Hrf26ptUx6opAyC5xAven0koqCA1inPIBQ==' (Size = 4000), @p16='2025-01-14T21:44:49.6853069+04:00' (Nullable = true), @p17='RKATX3HYMSIA2ROBUHZ5DAXXCBDZWQFE' (Size = 4000), @p18='False', @p19='MinurMemizade' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AspNetUserTokens] SET [Value] = @p0
+OUTPUT 1
+WHERE [LoginProvider] = @p1 AND [Name] = @p2 AND [UserId] = @p3;
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p4, [ConcurrencyStamp] = @p5, [Email] = @p6, [EmailConfirmed] = @p7, [LockoutEnabled] = @p8, [LockoutEnd] = @p9, [NormalizedEmail] = @p10, [NormalizedUserName] = @p11, [PasswordHash] = @p12, [PhoneNumber] = @p13, [PhoneNumberConfirmed] = @p14, [RefreshToken] = @p15, [RefreshTokenExpireTime] = @p16, [SecurityStamp] = @p17, [TwoFactorEnabled] = @p18, [UserName] = @p19
+OUTPUT 1
+WHERE [Id] = @p20 AND [ConcurrencyStamp] = @p21;
+2024-11-15 21:44:49.896 +04:00 [INF] Executing OkObjectResult, writing value of type 'CarMarketplaceWebApi.Models.DTOs.ResponseDTO'.
+2024-11-15 21:44:49.908 +04:00 [INF] Executed action CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi) in 760.068ms
+2024-11-15 21:44:49.911 +04:00 [INF] Executed endpoint 'CarMarketplaceWebApi.Controllers.AuthController.Login (CarMarketplaceWebApi)'
+2024-11-15 21:44:49.913 +04:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/Auth/Login/Login - 200 null application/json; charset=utf-8 802.0568ms
